@@ -17,7 +17,7 @@ layout: hextra-home
 
 <div class="mb-12">
 {{< hextra/hero-subtitle >}}
-  Implementation of traditional optimization methods;<br class="sm:block hidden" />and use of neural networks
+  Implementation 2 of traditional optimization methods;<br class="sm:block hidden" />and use of neural networks
 {{< /hextra/hero-subtitle >}}
 </div>
 
