@@ -32,29 +32,10 @@ layout: hextra-home
     title="SolidsOpt package"
     subtitle="This package merge the developments of optimization algorithms and deep learning"
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
-    image="/img/packrepo.png"
+    image="/img/porta.png"
     imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(79,67,255,0.15),hsla(0,0%,100%,0));"
-    link="https://github.com/kssgarcia/SolidsOpt"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(183, 91, 20, 0.41),hsla(0,0%,100%,0));"
+    link="https://kssgarcia.github.io/kssgarcia-portafolio/"
   >}}
 
-  {{< hextra/feature-card
-    title="Explore topology optimization's algorithms"
-    subtitle="It's a repository that include some scripts implementing traditional algorithms about optimization"
-    class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
-    image="/img/toprepo.png"
-    imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-    link="https://github.com/kssgarcia/OptTopolgy"
-  >}}
-
-  {{< hextra/feature-card
-    title="Topology optimization with deep learning"
-    subtitle="It's a repository that include the development of deep learning for topology optimization"
-    class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
-    image="/img/deeprepo.png"
-    imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(79,67,255,0.15),hsla(0,0%,100%,0));"
-    link="https://github.com/kssgarcia/DeepLearningOpt"
-  >}}
 {{< /hextra/feature-grid >}}
