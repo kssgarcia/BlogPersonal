@@ -3,58 +3,33 @@ title: Hextra Theme
 layout: hextra-home
 ---
 
-{{< hextra/hero-badge >}}
-  <div class="w-2 h-2 rounded-full bg-primary-400"></div>
-  <span>Código abierto</span>
-  {{< icon name="arrow-circle-right" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-
 <div class="mt-6 mb-6">
 {{< hextra/hero-headline >}}
-  Realise optimización topologica&nbsp;<br class="sm:block hidden" />con redes neuronales
+  Bienvenido a mi blog personal!<br class="sm:block hidden" /> Mi nombre es Kevin.
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="mb-12">
 {{< hextra/hero-subtitle >}}
-  Implementación de metodos de optimizacion tradicionales&nbsp;<br class="sm:block hidden" />y utilización de redes neuronales
+  En este blog, descubrirás publicaciones interesantes que abarcan la programación. <br class="sm:block hidden" /> aprendizaje automático y mecánica computacional.
 {{< /hextra/hero-subtitle >}}
 </div>
 
 <div class="mb-6">
-{{< hextra/hero-button text="Empezar" link="docs" >}}
+{{< hextra/hero-button text="Empieza a leer" link="docs" >}}
 </div>
+
 
 ## Explorar
 
 {{< hextra/feature-grid style="padding:2em 0 0 0">}}
   {{< hextra/feature-card
-    title="Paquete SolidsOpt"
-    subtitle="Este paquete reune el desarrollo de algoritmos de optimización y aprendizaje automatico" 
+    title="SolidsOpt package"
+    subtitle="This package merge the developments of optimization algorithms and deep learning"
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
-    image="/img/packrepo.png"
+    image="/img/porta.png"
     imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(79,67,255,0.15),hsla(0,0%,100%,0));"
-    link="https://github.com/kssgarcia/SolidsOpt"
-  >}}
-
-  {{< hextra/feature-card
-    title="Explora los algoritmos de optimización de topología"
-    subtitle="Es un repositorio que incluye algunos scripts que implementan algoritmos tradicionales de optimización."
-    class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
-    image="/img/toprepo.png"
-    imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
-    link="https://github.com/kssgarcia/OptTopolgy"
-  >}}
-
-  {{< hextra/feature-card
-    title="Optimización de topología con aprendizaje profundo"
-    subtitle="Es un repositorio que incluye el desarrollo de aprendizaje profundo para la optimización de la topología."
-    class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
-    image="/img/deeprepo.png"
-    imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(79,67,255,0.15),hsla(0,0%,100%,0));"
-    link="https://github.com/kssgarcia/DeepLearningOpt"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(183, 91, 20, 0.41),hsla(0,0%,100%,0));"
+    link="https://kssgarcia.github.io/kssgarcia-portafolio/"
   >}}
 {{< /hextra/feature-grid >}}
