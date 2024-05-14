@@ -21,17 +21,14 @@ languages:
   en:
     languageName: English
     weight: 1
-    title: OptBlog
+    title: Kssgarcia
   es:
     languageName: Spanish
     languageCode: es
     weight: 2
-    title: OptBlog
+    title: Kssgarcia
 menu:
   main:
-    - name: Docs
-      pageRef: /docs
-      weight: 1
     - name: Blog
       pageRef: /blog
       weight: 2
