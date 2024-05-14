@@ -24,8 +24,8 @@ layout: hextra-home
 
 {{< hextra/feature-grid style="padding:2em 0 0 0">}}
   {{< hextra/feature-card
-    title="SolidsOpt package"
-    subtitle="This package merge the developments of optimization algorithms and deep learning"
+    title="Mi Portafolio"
+    subtitle="Aquí puedes encontrar algunos de los proyectos que he realizado"
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
     image="/img/porta.png"
     imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
