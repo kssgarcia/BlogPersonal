@@ -16,7 +16,7 @@ layout: hextra-home
 </div>
 
 <div class="mb-6">
-{{< hextra/hero-button text="Empieza a leer" link="docs" >}}
+{{< hextra/hero-button text="Empieza a leer" link="blog" >}}
 </div>
 
 
@@ -29,7 +29,6 @@ layout: hextra-home
     class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
     image="/img/porta.png"
     imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(183, 91, 20, 0.41),hsla(0,0%,100%,0));"
     link="https://kssgarcia.github.io/kssgarcia-portafolio/"
   >}}
 {{< /hextra/feature-grid >}}

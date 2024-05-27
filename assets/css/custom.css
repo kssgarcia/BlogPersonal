@@ -1,10 +1,15 @@
 /* DARK MODE */
 /* Change the color of the body background */
 :is(html[class~="dark"] body) {
-  --tw-bg-opacity: 1;
-  background-color: black;
-  --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
+    --tw-bg-opacity: 1;
+    background: #141E30;
+    background: linear-gradient(to bottom, #1e1f19, #0e100f);
+    --tw-text-opacity: 1;
+    color: rgb(243 244 246 / var(--tw-text-opacity));
+}
+
+:is(html[class~="dark"] .dark\:to-gray-400) {
+    color: white
 }
 
 /* Change the backgroun of the navbar */
@@ -12,25 +17,31 @@
     background-color: rgb(17 17 17 / 0%) !important;
 }
 
+:is(html[class~="dark"] .dark\:bg-neutral-900) {
+    background: none;
+}
+
+:is(html[class~="dark"] .dark\:bg-neutral-900) {
+    background: none;
+}
+
 /* Change the bottom of the hero view */
 :is(html[class~="dark"] .dark\:bg-primary-600) {
-    background: #141414d9;
+    background: transparent;
     border-radius: 5px;
+    border: 1px solid white;
+    color: white;
 }
 
 :is(html[class~="dark"] .dark\:hover\:bg-primary-700:hover) {
     --tw-bg-opacity: 1;
-    background-color: hsl(11.6deg 35.6% 12.3%);
-}
-
-/* Change the border of the cards */
-:is(html[class~="dark"] .dark\:border-neutral-800) {
-    border-radius: 10px;
+    background-color: white;
+    color: black;
 }
 
 /* Change the foot background */
 :is(html[class~="dark"] .dark\:bg-neutral-900) {
-    background: #141414d9;
+    background: none;
 }
 
 /* Change the border radius of the code block */
@@ -40,13 +51,15 @@
 
 /* Fix some border issues because of the black backdround */
 :is(html[class~="dark"] .dark\:border-neutral-800) {
-    background: black;
+    background: transparent;
 }
+
 .code-block pre:not(.lntable pre) {
-  border-radius: 5px;
+    border-radius: 5px;
 }
+
 :is(html[class~="dark"] .dark\:shadow-\[0_-12px_16px_\#111\]) {
-    --tw-shadow: 0 -12px 16px #000;
+    --tw-shadow: 0 -12px 16px transparent;
 }
 
 /* Change the title font size and weight */
@@ -58,12 +71,20 @@
 /* LIGHT MODE */
 /* Change the bottom of the hero view */
 .bg-primary-600 {
-    background: #141414d9;
+    background: transparent;
     border-radius: 5px;
+    border: 1px solid black;
+    color: black;
 }
+
 .hover\:bg-primary-700:hover {
     --tw-bg-opacity: 1;
-    background-color: hsl(11.6deg 35.6% 12.3%);
+    background-color: black;
+    color: white;
+}
+
+.grid a {
+    background: radial-gradient(ellipse at 50% 80%, rgba(183, 91, 20, 0.41), hsla(0, 0%, 100%, 0));
 }
 
 /* Change the border of the cards */
