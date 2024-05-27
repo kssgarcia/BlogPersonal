@@ -15,16 +15,16 @@ En este post se explicará cómo generar la documentación de un módulo de Pyth
 ### Instalar sphinx y el builder para markdown
 
 ```sh
-$ pip install sphinx
-$ pip install sphinx-markdown-builder
+ pip install sphinx
+ pip install sphinx-markdown-builder
 ```
 
 ### Después de instalar estos paquetes y ubicarse en la raíz del proyecto, ejecutar los siguientes comandos.
 
 ```sh
-$ mkdir docs
-$ cd docs
-$ sphinx-quickstart
+ mkdir docs
+ cd docs
+ sphinx-quickstart
 ```
 
 ### Dentro de la carpeta docs, ir a la ubicación `/docs/source/conf.py` y realizar las siguientes modificaciones:
@@ -51,7 +51,7 @@ extensions = [
 ### Salir de la carpeta docs y ejecutar:
 
 ```sh
-$ sphinx-apidoc -o docs/source .
-$ sphinx-build -b markdown docs/source docs/build
+ sphinx-apidoc -o docs/source .
+ sphinx-build -b markdown docs/source docs/build
 ```
 {{% /steps %}}
